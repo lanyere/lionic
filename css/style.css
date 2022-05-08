@@ -419,6 +419,7 @@ body {
 
 .join-us-title {
   text-align: center;
+  margin-top: 40px;
 }
 
 .join-us-descr {
@@ -430,6 +431,7 @@ body {
   border: 1px solid #dadada;
   border-radius: 50px;
   box-sizing: border-box;
+  margin-bottom: 15px;
   padding: 16px 28px;
   width: 251px;
   height: 60px;

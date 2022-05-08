@@ -324,38 +324,53 @@
         </address>
       </div>
     </section>
-    <!-- <section id="join-us" class="join-us">
 
-        </section> -->
+    <section id="join-us" class="join-us">
+      <div class="container">
+        <h2 class="section-title section-offset join-us-title">Join us</h2>
+        <p class="section-descr join-us-descr">Take control of your paid subscriptions today!</p>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="form">
+          <div class="form-top">
+            <div class="form-left">
+              <input class="form-input" type="text" name="name" placeholder="Name" required>
+              <input class="form-input" type="email" name="email" placeholder="E-mail" required>
+              <input class="form-input" type="tel" name="phone" placeholder="Phone" required>
+              <select class="form-select" name="country">
+                <option value="Country" disabled selected>Country</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Spain">Spain</option>
+                <option value="Estonia">Estonia</option>
+              </select>
+            </div>
+            <div class="form-right">
+              <textarea class="form-textarea" name="comment" placeholder="Comment"></textarea>
+            </div>
+          </div>
+          <div class="form-bottom">
+            <div class="form-wrapper">
+              <button class="btn btn-reset form-btn">Get Started</button>
+              <label>
+                <input class="form-checkbox" type="checkbox" required>
+                I agree with the <a href="#">user agreement</a>
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer">
+  <footer class="header">
 		<div class="container flex footer-containter">
-			<div class="footer-left flex">
-				<a href="#" class="footer-logo">
-					<img src="img/logo.svg" alt="Logo">
-				</a>
-				<small class="footer-copy">
-					Copyright ©2017. All Right Reserved
-				</small>
+			<div class="header-left flex">
+				<strong class="header-name">
+					Yerlan Agzam
+				</strong>
 			</div>
 			<div class="footer-right flex">
-				<nav class="footer-nav">
-					<ul class="footer-list list-reset flex">
-						<li class="footer-item">
-							<a href="#" target="_blank" class="footer-link">About Us</a>
-						</li>
-						<li class="footer-item">
-							<a href="#" target="_blank" class="footer-link">Contact Us</a>
-						</li>
-						<li class="footer-item">
-							<a href="#" target="_blank" class="footer-link">Privacy Policy</a>
-						</li>
-						<li class="footer-item">
-							<a href="#" target="_blank" class="footer-link">Terms Condition</a>
-						</li>
-					</ul>
-				</nav>
 				<ul class="social list-reset">
 					<li class="social-item"><a href="#" class="social-link social-link-twitter"></a></li>
 					<li class="social-item"><a href="#" class="social-link social-link-ln"></a></li>

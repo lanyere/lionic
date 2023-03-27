@@ -1,2 +1,2 @@
 # LIONIC PROJECT
-### This project was made watching Skillbox course
+### This project was made by watching Skillbox course
